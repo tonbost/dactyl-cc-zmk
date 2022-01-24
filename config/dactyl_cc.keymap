@@ -35,8 +35,8 @@
     &kp LSHFT &kp Z     &kp X     &kp C     &kp V     &kp B                              &kp N     &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
                         &kp GRAVE &kp LALT                                                                   &kp LBKT   &kp RBKT
                                             &kp LCTRL &mo 2                              &mo 3     &kp LCTRL
-                                                      &kp RET   &kp BSPC  &kp DEL      &kp SPACE
-                                                      &kp LSHFT &kp LGUI  &kp RGUI     &kp MINUS
+                                                      &kp BSPC  &kp RET     &kp SPACE    &kp DEL
+                                                      &kp LSHFT &kp LGUI    &kp RGUI     &kp MINUS
             >;
         };
 
