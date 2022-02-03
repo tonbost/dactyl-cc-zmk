@@ -77,13 +77,13 @@
 
         adjust_layer {
             bindings = <
-    &bootloader &trans       &trans       &trans       &out OUT_USB &out OUT_BLE               &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &none             &rgb_ug RGB_TOG  
+    &bootloader &none        &none        &none        &out OUT_USB &out OUT_BLE               &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &none             &rgb_ug RGB_TOG  
     &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5               &rgb_ug RGB_BRD  &rgb_ug RGB_HUD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &none             &none  
-    &reset      &trans       &trans       &trans       &trans       &trans                     &trans           &trans           &trans           &trans           &ext_power EP_ON  &ext_power EP_OFF  
-                             &trans       &trans                                                                                 &trans           &trans     
-                                                       &trans       &trans                     &trans           &trans 
-                                                                    &trans   &trans   &tog 4   &trans 
-                                                                    &trans   &trans   &trans   &trans    
+    &reset      &none        &none        &none        &none        &none                      &none            &none            &none            &none            &ext_power EP_ON  &ext_power EP_OFF  
+                             &none        &none                                                                                  &none            &none     
+                                                       &none        &none                      &none            &none 
+                                                                    &none   &none      &tog 4  &none 
+                                                                    &none   &none      &none   &none    
             >;
         };
     };
